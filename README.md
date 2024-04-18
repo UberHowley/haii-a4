@@ -10,7 +10,7 @@ conda config --set channel_priority strict
 conda install discord.py
 ```
 
-For fastai, we should use conda (and on Windows, the conda shell), as we're using Anaconda python:
+For fastai, we should also use conda (and on Windows, the conda shell), as we're using Anaconda python:
 
 ```
 conda install -c fastai -c pytorch -c anaconda fastai gh anaconda
