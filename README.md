@@ -1,8 +1,5 @@
 # Assignment #4 Setup Instructions
 
-## Step #0 Create a Discord Account, Server, and Bot
-Read the instructions in Glow and watch the Assignment 4 video for directions on how to do this.
-
 ## Step #1 Install Necessary Programming Modules (new!)
 This week, in addition to Anaconda Python 3.8 (or greater) with Jupyter Notebooks and pandas, you'll also need to install the `discord`, `fastai`, and `nest_asyncio` modules. 
 
@@ -23,7 +20,7 @@ conda install -c fastai -c pytorch -c anaconda fastai gh anaconda
 `nest_asyncio` is needed for running discord.py code in Jupyter notebooks. You should be able to install it with:
 
 ```
-conda install conda-forge::nest-asyncio`
+conda install conda-forge::nest-asyncio
 ```
 
 If any of these conda installs fail, you should be able to force install them directly in the Jupyter notebooks with:
